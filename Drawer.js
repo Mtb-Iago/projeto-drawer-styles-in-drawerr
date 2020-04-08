@@ -29,7 +29,7 @@ const Screens = ({ navigation }) => {
                     marginHorizontal
                     padding onPress={() => navigation.openDrawer()}>
                     {/*ADD BOTAO MENU*/}
-                    <Feather name="menu" size={20} />
+                    <Feather name="menu" size={30} color="red" />
                 </Button>
             )
         }}>
@@ -62,22 +62,23 @@ const DrawerContent = props => {
                 </Block>
                 {/* <DrawerItemList {...props} /> */}
                 <DrawerItem
-                    label="Dashboards"
-                    labelStyle={{ marginLeft: -16 }}
+                    label="Home"
+                    labelStyle={{ marginLeft: -25, fontSize: 15, fontWeight: 'bold' }}
                     onPress={() => props.navigation.navigate("Dashboards")}
-                    icon={() => <AntDesign name="dashboard" color="red" size={16} />}
+                    icon={() => <AntDesign name="home" color="red" size={25} />}
                 />
                 <DrawerItem
-                    label="Messages"
-                    labelStyle={{ marginLeft: -16 }}
+                    label="Contato do programa"
+                    labelStyle={{ marginLeft: -25, fontSize: 15, fontWeight: 'bold' }}
                     onPress={() => props.navigation.navigate("Messages")}
-                    icon={() => <AntDesign name="message1" color="red" size={16} />}
+                    icon={() => <AntDesign name="message1" color="red" size={25} />}
                 />
+
                 <DrawerItem
-                    label="Contact"
-                    labelStyle={{ marginLeft: -16 }}
+                    label="Sobre o App"
+                    labelStyle={{ marginLeft: -25, fontSize: 15, fontWeight: 'bold' }}
                     onPress={() => props.navigation.navigate("Contact")}
-                    icon={() => <AntDesign name="phone" color="red" size={16} />}
+                    icon={() => <AntDesign name="info" color="red" size={25} />}
                 />
             </Block>
         </DrawerContentScrollView>

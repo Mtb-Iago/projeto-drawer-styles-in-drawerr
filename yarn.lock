@@ -2336,6 +2336,14 @@ expo-asset@~8.1.3:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
+expo-av@~8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-8.1.0.tgz#376e2a821168cd83e997c6dd84350fab6b293f10"
+  integrity sha512-owWxOCyK+dPyT3pF4rDOf2W8Sn8LSEvfw1HvU9xM0wzH7xF0bw3Zs3wcXxvtfhnXAZ5dCDQfvZI5cXk+lml+IQ==
+  dependencies:
+    lodash "^4.17.15"
+    nullthrows "^1.1.0"
+
 expo-constants@~9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-9.0.0.tgz#35c600079ee91d38fe4f56375caae6e90f122fdd"
@@ -2377,6 +2385,13 @@ expo-location@~8.1.0:
   dependencies:
     invariant "^2.2.4"
 
+expo-mail-composer@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-mail-composer/-/expo-mail-composer-8.1.0.tgz#7de693861e374add34ba4da69df677c2d6ba7104"
+  integrity sha512-CMkDa5YX9YZj/ZLHp0f1WAMBrCZjGqsloOH9JzhnCwMVy0BR+lLYoYWiwx2zk2JTpUgADXjdQKK4edDFclGwtg==
+  dependencies:
+    query-string "^6.2.0"
+
 expo-permissions@~8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.1.0.tgz#a7f2ee91ba76ce3a467e7b10adaa9ca5201b226f"
@@ -2401,10 +2416,10 @@ expo-web-browser@~8.1.0:
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-8.1.0.tgz#1b4ca25e4dd600fac9ad16e32d81be47778c2667"
   integrity sha512-Js2LIGut0NRKF+8BdQ2EOwGF2B2VYlnHgERxRtR+vHw7NOa7ZSl2GKFlAmf8QvAHqskk1OD0tujtoATv9XcELg==
 
-expo@~37.0.3:
-  version "37.0.4"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-37.0.4.tgz#f624b10b331bd43721d2b280ffcb795d84186d11"
-  integrity sha512-25iSTMtxqIggeQRADvF+nJs/cBQ0DdDvSBK7LTDeNV7xEesYLmNBxkzUuaTpvZwI/DLwChxweSlPGwC6rHM2Gw==
+expo@^37.0.5:
+  version "37.0.5"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-37.0.5.tgz#65df7065af38e01bae6eb55d76db67b83126f82a"
+  integrity sha512-ipI+4yGxNoeJoWkuuZVJRvqN1tHvirFAPbJ304vUssoGGO3MrSNEZ3jlq+2IP0OSrCMwttk6cKVYM5ftAZSNwA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@expo/vector-icons" "^10.0.2"
@@ -2907,6 +2922,11 @@ inquirer@^3.0.6:
     string-width "^2.1.0"
     strip-ansi "^4.0.0"
     through "^2.3.6"
+
+install@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/install/-/install-0.13.0.tgz#6af6e9da9dd0987de2ab420f78e60d9c17260776"
+  integrity sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==
 
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -4316,6 +4336,15 @@ query-string@^6.11.1:
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.11.1.tgz#ab021f275d463ce1b61e88f0ce6988b3e8fe7c2c"
   integrity sha512-1ZvJOUl8ifkkBxu2ByVM/8GijMIPx+cef7u3yroO3Ogm4DOdZcF5dcrWTIlSHe3Pg/mtlt6/eFjObDfJureZZA==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
+query-string@^6.2.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.12.0.tgz#fa0fe5b3ddf4d040d1236b80672949ab33d5cf80"
+  integrity sha512-aoiFW9ZU7jP8Itjqfpw80Qe7RoyCIhFrW522sdsp9LG92pat6CCG3d8qNZBaUi71FsEjIfLjx9Ky347FtVoqXA==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
